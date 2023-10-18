@@ -8,35 +8,27 @@ body {
   padding: 40px;
 }
 
-
 /* Headings */
 h1 {
   font-family: "Playfair Display", Times, serif;
-  /* text-align: center; */
+  text-align: center;
   float: left;
   display: inline;
   padding-bottom: 100px;
 }
 
-/* #about {
- padding-top: 100px;
-} */
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
 
-/* Header */
-#heading {
-
+header {
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header {
-  text-align: center;
+  display:inline-block;
 }
 
 /* Containers */
@@ -48,14 +40,30 @@ div {
 
 #about{
   align-items: center;
+  padding-bottom: 100px;
 }
 
 #about div img{
   float: left;
 }
-/* todo: find a way to float right the text */
-#about-text{
+
+#about h3{
+  text-align: center;
+}
+
+#about-text p, ul{
   text-align: left;
+  margin-left: 275px;
+}
+
+#background{
+  margin-top: 50px;
+}
+
+#portfolio-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 article {
   padding: 50px 0;
@@ -86,6 +94,7 @@ nav {
   padding-top: 100px;
 }
 
+/* padding needs to stay the same for these elements to be aligned. */
 nav a {
   padding-left: 20px;
   float: right;
@@ -113,4 +122,3 @@ footer {
 hr {
   border: 1px solid black;
 }
-
