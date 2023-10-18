@@ -8,8 +8,19 @@ body {
   padding: 40px;
 }
 
+
 /* Headings */
-h1,
+h1 {
+  font-family: "Playfair Display", Times, serif;
+  /* text-align: center; */
+  float: left;
+  display: inline;
+  padding-bottom: 100px;
+}
+
+/* #about {
+ padding-top: 100px;
+} */
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
@@ -17,6 +28,13 @@ h3 {
 }
 
 /* Header */
+#heading {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header {
   text-align: center;
 }
@@ -28,6 +46,17 @@ div {
   width: 600px;
 }
 
+#about{
+  align-items: center;
+}
+
+#about div img{
+  float: left;
+}
+/* todo: find a way to float right the text */
+#about-text{
+  text-align: left;
+}
 article {
   padding: 50px 0;
 }
@@ -43,6 +72,7 @@ p {
 }
 
 /* Links */
+
 a:link {
   color: #d62828;
 }
@@ -51,8 +81,15 @@ a:hover {
   color: #f77f00;
 }
 
+nav {
+  display: inline;
+  padding-top: 100px;
+}
+
 nav a {
   padding-left: 20px;
+  float: right;
+  padding-top: 35px;
 }
 
 /* Images */
@@ -76,3 +113,4 @@ footer {
 hr {
   border: 1px solid black;
 }
+
