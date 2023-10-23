@@ -8,34 +8,20 @@ body {
   padding: 40px;
 }
 
-/* Headings
-h1 {
-  font-family: "Playfair Display", Times, serif;
-  text-align: center;
-  align-items: center;
-  float: left;
-  display: flex;
-  padding-bottom: 100px;
-} */
 #heading {
   display: flex;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
   display:inline-block;
-  margin-left: 40%; /* this is ridiculous, but I could not get the header to align in any other way*/
+  vertical-align: center;
+  margin-left: 35%; /*this is ridiculous, but I could not get the header to align in any other way*/
 }
 
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  display:inline-block;
 }
 
 header h1{
@@ -51,7 +37,7 @@ div {
 
 #about{
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #about div img{
@@ -71,32 +57,23 @@ div {
   margin-top: 50px;
 }
 
-
-/* portfolio section */
-#portfolio{
-  display: flexbox;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 10px;
-  vertical-align: top;
-}
 .portfolio-items{
   display: flex;
-  flex-direction: row;
-  padding: 10px;
-  vertical-align:text-top;
+  justify-content: center;
+}
+
+.portfolio-items > div {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
 }
 
 .portfolio-items img{
   padding: 20px;
-  vertical-align: top;
-  align-self: flex-start;
 }
-
-.portfolio-items > div {
-   vertical-align: top;
-}
-
 
 article {
   padding: 50px 0;
